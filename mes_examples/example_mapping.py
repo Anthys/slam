@@ -74,6 +74,7 @@ for bound in open_mesh_boundary:
     # wrap the vispy object using visbrain
     l_obj = VispyObj('line', lines)
     visb_sc2.add_to_subplot(l_obj)
+    
 visb_sc.preview()
 
 ###############################################################################

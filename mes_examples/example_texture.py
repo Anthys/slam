@@ -19,7 +19,7 @@ from slam import texture
 from slam import io as sio
 
 ###############################################################################
-# 
+# Informations on texture
 tex = sio.load_texture('data/example_texture.gii')
 print(tex)
 print(tex.metadata)
@@ -30,7 +30,7 @@ print(tex.max())
 
 
 ###############################################################################
-# 
+#  
 darray = np.zeros((2, 3))
 tex2 = texture.TextureND(darray=darray)
 print(tex2.metadata)
